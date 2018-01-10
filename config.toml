@@ -1,0 +1,39 @@
+baseURL = "https://nthdimtech.com"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "Nth Dimension"
+theme = "docdock"
+themesdir = "themes"
+
+[params]
+showVisitedLinks = true # default is false
+themeStyle = "" # "original" or "flex" # default "original"
+themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "Signet"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/signet/"
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github"
+identifier = "ds"
+url = "https://github.com/nthdimtech"
+weight = 10
