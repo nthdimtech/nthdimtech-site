@@ -5,8 +5,7 @@ weight: 30
 
 ## Signet Client Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS,
-and GNU/Linux. The latest client version is [0.9.8](/signet/release-notes/signet-client-0.9.8-notes).  The latest firmware version is 1.2.4.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.8](/signet/release-notes/signet-client-0.9.8-notes).  The latest firmware version is 1.2.4. You can download a binary image below or download the [source code](#source-code) to build your own binaries.
 
 Operating system      | Download
 ----------------------|---------------
@@ -64,11 +63,10 @@ sudo cp ~/Downloads/50-signet.rules /etc/udev/rules.d
 	You should be able to run it in the future 
 	with no warnings or extra steps.
 
-## Source
-
-The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license.
-You can find all of the sources at the [Nth Dimension github page](https://www.github.com/nthdimtech).
-
-## Past Releases
+## Past Binary Releases
 
 You can find all past client and firmware releases [here](https://nthdimtech.com/downloads/signet-releases).
+
+## Source Code
+
+The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license. You can find all Signet sources from the [Nth Dimension github page](https://www.github.com/nthdimtech). You can also download the [latest source archive](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.8.tar.bz2) if you want to build the latest release or browse [past source archives](https://nthdimtech.com/downloads/signet-releases/sources/) to build an earier version.
