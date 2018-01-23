@@ -5,13 +5,13 @@ weight: 30
 
 ## Signet Client Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.8.1](/signet/release-notes/signet-client-0.9.8-notes).  The latest firmware version is 1.2.4. You can download a binary image below or download the [source code](#source-code) to build your own binaries.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.8.1](/signet/release-notes/20180120_signet-client-0.9.8-notes).  The latest firmware version is 1.2.4. You can download a binary image below or download the [source code](#source-code) to build your own binaries.
 
 Operating system      | Download
 ----------------------|---------------
 Windows (64 bit)      | [signet-0.9.8.1-64bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.8/windows/signet-0.9.8.1-64bit.exe)
 Mac                   | [signet-0.9.8.1.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.8/macos/signet-0.9.8.1.dmg)
-Linux (Debian/Ubuntu) | [signet-0.9.8.1](https://nthdimtech.com/downloads/signet-releases/0.9.8/gnu-linux/signet-0.9.8.1)
+GNU/Linux             | [signet-0.9.8.1](https://nthdimtech.com/downloads/signet-releases/0.9.8/gnu-linux/signet-0.9.8.1)
 
 ### Windows
 
@@ -69,4 +69,4 @@ You can find all past client and firmware releases [here](https://nthdimtech.com
 
 ## Source Code
 
-The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license. You can find all Signet sources from the [Nth Dimension github page](https://www.github.com/nthdimtech). You can also download the [latest source archive](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.8.1.tar.bz2) if you want to build the latest release or browse [past source archives](https://nthdimtech.com/downloads/signet-releases/sources/) to build an earier version.
+The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license. You can find all Signet sources from the [Nth Dimension github page](https://www.github.com/nthdimtech). You can also download the [latest source archive](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.8.1.tar.bz2) for the client if you want to build the latest client release. You can also browse [past source archives](https://nthdimtech.com/downloads/signet-releases/sources/) to build an earier version.
