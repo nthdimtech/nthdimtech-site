@@ -1,4 +1,6 @@
-Signet desktop client version 0.9.8 release notes
+---
+title: Signet Client version 0.9.8
+---
 
 ### KeePass Import feature added
 
