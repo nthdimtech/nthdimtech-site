@@ -1,3 +1,7 @@
+---
+title: Signet Client Version 0.9.7
+---
+
 Signet client version 0.9.7 introduces a keyboard layout management feature, improves typing support generally, and fixes several bugs
 
 ### Keyboard Layout Management 
