@@ -1,5 +1,6 @@
 ---
 title: Signet Client version 0.9.8
+date: "2018-01-20"
 ---
 
 ### KeePass Import feature added
