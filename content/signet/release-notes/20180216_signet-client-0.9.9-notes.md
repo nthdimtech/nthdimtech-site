@@ -1,4 +1,9 @@
-Signet desktop client version 0.9.9 release notes
+---
+title: Signet Client Version 0.9.9
+date: "2018-02-16"
+---
+
+Signet desktop client version 0.9.9 adds support for account grouping, pass database import, and CSV import 
 
 ### Account Grouping
 
@@ -10,7 +15,7 @@ Unfortunatly Group information added by the KeePass import tool in version 0.9.8
 
 You can now import password database's created by the [pass](https://www.passwordstore.org/) command line tool. The import operation operates on one account at a time as there is no way yet to write multiple accounts at the same time
 
-### CSV Database Import
+### CSV Import
 
 Release 0.9.9 supports importing accounts and other data types from CSV files. When importing accounts important fields such as "username" will accept multiple similar CSV column header values (such as "user") as sources. Columns not matched to any pre-defined fields will be added as generic fields.
 
