@@ -9,7 +9,7 @@ Signet desktop client version 0.9.9 adds support for account grouping, pass data
 
 The 0.9.9 release adds support for grouping accounts and displays accounts in a tree view when at least one account is assigned to a group. When some accounts are grouped and others are not the ungrouped accounts are placed into a default "Unsorted" group. Group assignments can be made during account creation or editing by modifying the group field. Nested groups are supported by entering multiple groups separated by a '/' character similar to a file path.
 
-Unfortunatly Group information added by the KeePass import tool in version 0.9.8.1 cannot be used by version 0.9.9. The client stored in a generic field "path" but this field was incorrectly marked as secret so GUI preventing it from being useful for display purposes. This can be fixed manually by copying the generic "path" fields of previously imported accounts into the now built-in "group" field. Alternately the KeePass import operation could be repeated, causing the imports to be grouped correctly. After the second import operation there will probably be some duplicates in the "Unsorted" group that should be removed.
+Group information added by the KeePass import tool in version 0.9.8.1 is not used by version 0.9.9. The group information can recovered manually by copying the generic "path" fields from previously imported accounts into the now built-in "group" field. Alternately the KeePass import operation could be repeated, causing the imports to be grouped correctly. After the second import operation there will probably be some duplicates in the "Unsorted" group that should be removed.
 
 ### Pass Database Import
 
