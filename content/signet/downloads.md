@@ -7,12 +7,18 @@ weight: 30
 
 The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.9](/signet/release-notes/20180216_signet-client-0.9.9-notes).  The latest firmware version is [1.2.4](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.2.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries.
 
-Operating system      | Download
-----------------------|---------------
-Windows (64 bit)      | [signet-0.9.9-64bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-64bit.exe)
-Windows (32 bit)      | [signet-0.9.9-32bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-32bit.exe)
-Mac                   | [signet-0.9.9.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.9/macos/signet-0.9.9.dmg)
-GNU/Linux             | [signet-0.9.9](https://nthdimtech.com/downloads/signet-releases/0.9.9/gnu-linux/signet-0.9.9)
+Description      | File  | GPG signature
+-----------------|-------|----------------------
+Windows client (64 bit)  | [signet-0.9.9-64bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-64bit.exe) | [Download](/signet/release-signatures/0.9.9/windows/signet-0.9.9-64bit.exe.sig)
+Windows client (32 bit)  | [signet-0.9.9-32bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-32bit.exe) | [Download](/signet/release-signatures/0.9.9/windows/signet-0.9.9-32bit.exe.sig)
+MacOS client             | [signet-0.9.9.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.9/macos/signet-0.9.9.dmg) | [Download](/signet/release-signatures/0.9.9/macos/signet-0.9.9.dmg.sig)
+GNU/Linux client         | [signet-0.9.9](https://nthdimtech.com/downloads/signet-releases/0.9.9/gnu-linux/signet-0.9.9) | [Download](/signet/release-signatures/0.9.9/gnu-linux/signet-0.9.9.sig)
+Firmware binary version 1.2.4  | [signet-1.2.4.sfw](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.2.4.sfw) | [Download](/signet/release-signatures/firmware/signet-1.2.4.sfw.sig) 
+Client Source code version 0.9.9 | [signet-desktop-client-0.9.9.tar.bz2](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.9.tar.bz2) | [Download](/signet/release-signatures/sources/signet-desktop-client-0.9.9.tar.bz2.sig)
+
+To verify the GPG signatures you can download the Nth Dimension public [GPG key](https://nthdimtech.com/nthdimtech.asc). For additional validation you can find a copy of the
+key on the GitHub repository for this site [here](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/nthdimtech.asc). Copies of the signature files can also be found
+in the [GitHub repository](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/signet/release-signatures) as well.
 
 ### Windows
 
