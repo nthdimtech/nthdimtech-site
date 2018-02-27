@@ -10,7 +10,7 @@ The Signet client is a standalone cross-platform application that supports Windo
 Operating system      | Download
 ----------------------|---------------
 Windows (64 bit)      | [signet-0.9.9-64bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-64bit.exe)
-Windows (32 bit)      | [signet-0.9.9-64bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-32bit.exe)
+Windows (32 bit)      | [signet-0.9.9-32bit.exe](https://nthdimtech.com/downloads/signet-releases/0.9.9/windows/signet-0.9.9-32bit.exe)
 Mac                   | [signet-0.9.9.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.9/macos/signet-0.9.9.dmg)
 GNU/Linux             | [signet-0.9.9](https://nthdimtech.com/downloads/signet-releases/0.9.9/gnu-linux/signet-0.9.9)
 
