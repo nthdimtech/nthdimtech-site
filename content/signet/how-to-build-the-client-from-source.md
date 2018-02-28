@@ -65,7 +65,7 @@ $ cp -r signet.app ~/Desktop
 First install [MSYS2](http://www.msys2.com). MSYS2 will provide a build environment and a package manager to download Signet's dependencies. Once MSYS2 is installed, launch the MSYS2/MinGW-64 shell and run:
 
 ```bash
-$ pacman -S mingw-w64-x86_64-gcc mingw64-w64-x86_64-make
+$ pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-make
 $ pacman -S mingw-w64-x86_64-qt5-static mingw-w64-x86_64-zlib mingw-w64-x86_64-libgcrypt
 $ pacman -S mingw-w64-x86_64-jasper mingw-w64-x86_64-openssl
 ```
