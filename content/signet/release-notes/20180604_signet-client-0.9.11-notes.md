@@ -1,3 +1,8 @@
+---
+title: Signet Client version 0.9.11
+date: "2018-06-04"
+---
+
 Signet desktop client version 0.9.11 is a major feature release that also fixes several critical bugs.
 
 The most significant features are the ability to read the contents of database backup files, and support for typing specific stored passwords without the client running (such as during initial login).
