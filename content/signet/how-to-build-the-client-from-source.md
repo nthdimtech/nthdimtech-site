@@ -62,7 +62,7 @@ cp -r signet.app ~/Desktop
 
 ### Windows build steps
 
-First install [MSYS2](http://www.msys2.com). MSYS2 will provide a build environment and a package manager to download Signet's dependencies. Once MSYS2 is installed, launch the MSYS2/MinGW-64 shell and run:
+First install [MSYS2](http://www.msys2.org). MSYS2 will provide a build environment and a package manager to download Signet's dependencies. Once MSYS2 is installed, launch the MSYS2/MinGW-64 shell and run:
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-make mingw-w64-x86_64-qt5-static mingw-w64-x86_64-zlib mingw-w64-x86_64-libgcrypt mingw-w64-x86_64-jasper mingw-w64-x86_64-openssl mingw-w64-x86_64-dbus mingw-w64-x86_64-libwebp
