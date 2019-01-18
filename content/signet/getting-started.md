@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Signet 
+title: Getting Started
 weight: 10
 TableOfContents: true
 ---
