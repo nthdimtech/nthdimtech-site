@@ -1,6 +1,6 @@
 ---
 title: Signet Client version 0.9.12
-date: "2018-01-10"
+date: "2019-01-10"
 ---
 
 ### New features
