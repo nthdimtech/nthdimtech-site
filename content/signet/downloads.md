@@ -5,7 +5,7 @@ weight: 30
 
 ## Signet Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.12](/signet/release-notes/20190110_signet-client-0.9.12-notes).  The latest firmware version is [1.3.2](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.12](/signet/release-notes/20190110_signet-client-0.9.12-notes).  The latest firmware version is [1.3.4](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries.
 
 Description      | Version | File | GPG signature
 -----------------|---------|------|---------------
