@@ -1,3 +1,3 @@
 ---
-title: Latest Signet Updates
+title: News 
 ---

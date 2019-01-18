@@ -1,5 +1,5 @@
 ---
-title: Join the Signet Community
+title: Community
 weight: 100
 ---
 
