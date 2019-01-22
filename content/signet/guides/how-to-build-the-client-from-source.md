@@ -1,5 +1,5 @@
 ---
-title: How to build the client
+title: Building the client from source
 weight: 30
 ---
 
