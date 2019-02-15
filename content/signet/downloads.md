@@ -12,6 +12,7 @@ Description      | Version | File | GPG signature
 Windows client (64 bit)  | 0.9.12.2 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/windows/signet-0.9.12-64bit.exe) | [Signature](/signet/release-signatures/0.9.12/windows/signet-0.9.12-64bit.exe.sig)
 MacOS client             | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/macos/signet-0.9.12.dmg) | [Signature](/signet/release-signatures/0.9.12/macos/signet-0.9.12.dmg.sig)
 GNU/Linux client         | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/gnu-linux/signet-0.9.12) | [Signature](/signet/release-signatures/0.9.12/gnu-linux/signet-0.9.12.sig)
+GNU/Linux udev rule | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.12/gnu-linux/50-signet.rules.sig)
 Android client   | 0.1 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.apk.sig)
 Firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
 Client source code |  0.9.12.1 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.12.1.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-desktop-client-0.9.12.1.tar.bz2.sig)
