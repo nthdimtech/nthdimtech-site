@@ -1,5 +1,5 @@
 ---
-title: Recover from a failed firmware update 
+title: Recovering from a failed firmware update 
 weight: 30
 ---
 

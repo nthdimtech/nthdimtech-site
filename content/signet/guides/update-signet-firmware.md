@@ -1,5 +1,5 @@
 ---
-title: Update Signet firmware 
+title: Updating your Signet's firmware 
 weight: 30
 ---
 
