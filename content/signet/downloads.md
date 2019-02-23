@@ -13,7 +13,7 @@ Windows client (64 bit)  | 0.9.12.2 |[Download](https://nthdimtech.com/downloads
 MacOS client             | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/macos/signet-0.9.12.dmg) | [Signature](/signet/release-signatures/0.9.12/macos/signet-0.9.12.dmg.sig)
 GNU/Linux client         | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/gnu-linux/signet-0.9.12) | [Signature](/signet/release-signatures/0.9.12/gnu-linux/signet-0.9.12.sig)
 GNU/Linux udev rule | 0.9.12.1  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.12/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.12/gnu-linux/50-signet.rules.sig)
-Android client   | 0.1 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.apk.sig)
+Android client   | 0.1.5 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.5.apk.sig)
 Firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
 Client source code |  0.9.12.1 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-desktop-client-0.9.12.1.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-desktop-client-0.9.12.1.tar.bz2.sig)
 
@@ -22,6 +22,10 @@ To verify the GPG signatures you can download Nth Dimension's public [GPG key](h
 	D475 81AE 98C1 7249 9153 87BE 0E47 D2FA 6E50 979D
 
 For additional validation you can find a copy of the key on the GitHub repository for this site [here](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/nthdimtech.asc). Copies of the signature files can also be found in the [GitHub repository](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/signet/release-signatures) as well.
+
+### Android
+
+The Android client supports android version 4.4 (Lollypop) and above. To install first download the [apk](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk). Tapping on the APK file will initiate installation. If you have already installed the application before you may have to uninstall the current version. At this time the Android client has a limited set of functionality but can be used to copy account data to the clipboard for use.
 
 ### Windows
 
