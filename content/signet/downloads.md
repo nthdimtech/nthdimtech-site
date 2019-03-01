@@ -25,7 +25,22 @@ For additional validation you can find a copy of the key on the GitHub repositor
 
 ### Android
 
-The Android client supports android version 4.4 (Lollypop) and above. To install first download the [apk](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk). Tapping on the APK file will initiate installation. If you have already installed the application before you may have to uninstall the current version. At this time the Android client has a limited set of functionality but can be used to copy account data to the clipboard for use.
+The Android client supports android version 4.4 (Lollypop) and above. At this time the Android client has a limited set of functionality but can be used to copy account data to the clipboard for use.
+
+1. Download the [apk](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk)
+
+1. Tap on the APK file to initiate installation of the application
+	
+	{{% notice note %}}
+If you have already installed the application before you may have to uninstall the current version
+	{{% /notice %}}
+
+1. Insert your Signet device.
+
+1. Tap yes when prompted by Android to allow the application to access Signet
+
+1. Tap yes when prompted by Android to allow the application to be launched when Signet is connected.
+
 
 ### Windows
 
