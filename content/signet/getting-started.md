@@ -8,76 +8,42 @@ TableOfContents: true
 
 Download the client for your operating system [here](/signet/downloads/) before starting.
 
-## Device Mangement 
+## Initializing your device for the first time 
 
-Once you have your client downloaded and device plugged in you will need to initialize it and unlock your device. The video below
-shows you how to do this and other basic device managment tasks, such as:
+1. Plug in your device and start the client
+1. Click "Initialize the device for the first time"
+1. Choose a master password. Ideally it should be randomized, longer than eight characters and not a password you have used
+anywhere else. If you create a new password for Signet it may be a good idea to write down the password for a short time until you have it memorized.
+1. Press initialize and wait for the initialization process to complete. Initialization will zero out the device's memory and use random data generated both on the device and the host to setup authentication and encryption keys.
 
-* Changing your password.
-* Backing up your device's data.
+## Unlocking your device
 
-{{< vimeo 231168945 >}}
+1. Enter your master password and press "Unlock"
+1. If this is the first time you have unlocked your device on the computer you are using you will be prompted to configure the client
+1. Click to configure the client if you use a keyboard layout other than English(US) or want to enable automatic backups on the system
+you are running the client from
 
-## Password Management
+## Adding data to your device
 
-Once you have a handle on managing your device you're ready to start adding data and
-accessing it.
+Once you have unlocked your device you are ready to add data to it. To add new data to Signet click the add button which is near the top
+of the window and has a plus sign icon. You can select which kind of data to add with the data type pulldown menu below add button. When you press the add button an entry creation dialog will appear. There will required fields associated with the entries data type but you can also add your own fields by entering them at the bottom of the dialog. To add a new field first set it's name and data type then press the add button. Then the new fields value can be set. When you are done setting all of the values click create and press Signet's button to confirm
+the creation.
 
-{{< vimeo 231168954 >}}
+You may also create new types of data by selecting "Data type" in the data types pull down menu. The fields you add to entries created in this mode are the required fields of a new data type.
 
-## Data Types
+## Accessing your data
 
-### Access Data Types
+The "data type" pulldown near the top of the window selects which kind of entries are visible in the window. To perform an action on data
+you have created either right click on the entry in the view or press one of the toolbar buttons at the bottom of the window. The available actions are different depending
+on what kind of data is selected but all data types have a button to:
 
-Just below the search bar is a pulldown menu where you can select which kind of data you want to view or search for.
+- Open the entry to view or edit it
+- Delete the entry
+- Launch a browser and open a URL associated with the entry (if available)
 
-![signet data type pull down menu](/images/signet-pulldown-menu-1_png_project-body-fixed.jpg)
+For account entries there are also buttons to login to the account (type username then password), type the username, type the password. Note that typing operations will cause Signet to become backgrounded to
+make it easy to select a destination text box for the data. When you have selected where you need the data typed press the device button. When you need to access the client again just press the deviec button again and it will come back to the foreground.
 
-There are common UI actions shared across data types such as delete and open.
+## Additional help
 
-Some data types may feature special actions on the toolbar below the main view, such as launch a browser with the account's listed URL or 
-tell Signet to type one of the commonly used data fields (login, user name, password).
-
-### Add New Data Fields
-
-You can add any number of custom fields to existing data and to define the data type so
-that the application can choose a proper UI control for it.
-
-When you add a custom field in the `view/edit` dialog, 
-the Signet client adds the field to that entry only, and the data will appear below a separator line.
-
-The screen captures below give a few examples, such as:
-
-* Storing a contact's personal website.
-* Storing the routing account number for a debit card.
-* Adding unstructured notes about an account.
-
-![Signet user created data type](/images/signet-contact-user-field-1_png_project-body-fixed.jpg)
-
-## Mouse-Free Login
-
-Signet automatically gives keyboard focus back to the previous application when you request it to type.
-This allows you avoid having to fumble with a mouse or keyboard shortcut to enter data into a field. This feature, combined with new keyboard navigation features, makes many common
-tasks like logging into websites easier and quicker. The video below demonstrates how to do this.
-
-{{< vimeo 232519353 >}}
-
-## Data Backup
-
-Signet offers two forms of data back-up: encrypted automatic backup, and export to unencrpted CSV.
-
-### Automatic Backup
-
-The client can request to make regular backups in your preferred locations at whatever frequency you want. The automatically-created backups are given a name that includes the current date to make them easy to manage.
-
-You can also configure the client to make backups on removable media in addition to, or instead of, local filesystem backups. This way you will still have a backup if you lose your Signet and your computer through theft or accident. To keep your removable backup current, the Signet client will make a record of the last time it successfully wrote to the removable media. When that date is older than a configurable period the client will request to make a new backup to the removable media.
-
-### Export to CSV
-
-You can process your data in an unencrypted human readable form. This could enable you to import the data into another program, perform your own custom processing on it, or act as another kind of backup.
-
-Signet's security model requires that only a single database entry can be decrypted by a button press. To maintain this model but still support exporting to CSV, unencrypted export operations are confirmed differently. The light blinks twice as slow and you must hold the button for two seconds before the device will decrypt all the entries to allow CSV generation.
-
-### Video Demonstration
-
-{{< vimeo 236532337 >}}
+This guide is meant to help you get started with the basics of Signet and does not describe all of it's features. For additional help go to the [guides](/signet/guides) section.
