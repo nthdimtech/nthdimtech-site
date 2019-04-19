@@ -5,9 +5,7 @@ weight: 30
 
 ## Signet Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. The latest client version is [0.9.13](/signet/release-notes/20190412_signet-client-0.9.13-notes).  The latest firmware version is [1.3.4](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries.
-
-You can download the Firefox plugin for Signet from its [addon page](https://addons.mozilla.org/en-US/firefox/addon/signet/) on mozilla.org or by searching for "Signet" in the Firefox extensions page. A standalone extension file is available below. If you install from the file you will not recieve automatic updates. A Chrome extension is available below but it must be installed manually through [chrome://extensions](chrome://extensions) in developer mode until it is approved by Google.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. Read the latest client [release notes](/signet/release-notes/20190412_signet-client-0.9.13-notes) for information on new features and improvements. [Browser plugins](#browser-plugins) for the Signet client are available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). The latest firmware version is [1.3.4](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries. Check the sections below for installation notes for your platform.
 
 Description      | Version | File | GPG signature
 -----------------|---------|------|---------------
@@ -15,8 +13,6 @@ Windows client (64 bit)  | 0.9.13 |[Download](https://nthdimtech.com/downloads/s
 MacOS client             | 0.9.13  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.13/macos/signet-0.9.13.dmg) | [Signature](/signet/release-signatures/0.9.13/macos/signet-0.9.13.dmg.sig)
 GNU/Linux client         | 0.9.13  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.13/gnu-linux/signet-0.9.13) | [Signature](/signet/release-signatures/0.9.13/gnu-linux/signet-0.9.13.sig)
 GNU/Linux udev rule | 0.9.13  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.13/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.13/gnu-linux/50-signet.rules.sig)
-Firefox plugin | 0.1.2 | [Download](https://nthdimtech.com/downloads/signet-releases/browser-plugins/firefox/signet-0.1.2-fx.xpi) | [Signature](/signet/release-signatures/browser-plugins/firefox/signet-0.1.2-fx.xpi.sig)
-Chrome plugin | 0.1.2 | [Download](https://nthdimtech.com/downloads/signet-releases/browser-plugins/chrome/signet-0.1.2.zip) | [Signature](/signet/release-signatures/browser-plugins/chrome/signet-0.1.2.zip.sig)
 Android client   | 0.1.5 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.5.apk.sig)
 Firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
 Client source code |  0.9.13 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.13.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-client-0.9.13.tar.bz2.sig)
@@ -26,6 +22,10 @@ To verify the GPG signatures you can download Nth Dimension's public [GPG key](h
 	D475 81AE 98C1 7249 9153 87BE 0E47 D2FA 6E50 979D
 
 For additional validation you can find a copy of the key on the GitHub repository for this site [here](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/nthdimtech.asc). Copies of the signature files can also be found in the [GitHub repository](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/signet/release-signatures) as well.
+
+### Browser plugins 
+
+Browser plugins for Signet are available online for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). You may also download one of the standalone plugin files [here](https://nthdimtech.com/downloads/signet-releases/browser-plugins).  If you install from one of the plugin files you will not recieve automatic updates. For Chrome the only way to install from a file is through chrome://extensions with developer mode turned on.
 
 ### Android
 
