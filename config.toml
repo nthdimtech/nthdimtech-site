@@ -37,3 +37,15 @@ name = "<i class='fa fa-github'></i> Github"
 identifier = "ds"
 url = "https://github.com/nthdimtech"
 weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-twitter'></i> Twitter"
+identifier = "dk"
+url = "https://twitter.com/NthDimensionLLC"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-youtube'></i> YouTube"
+identifier = "dt"
+url = "https://www.youtube.com/channel/UCnz88w8F_xVtRzpSzWz33pA"
+weight = 12
