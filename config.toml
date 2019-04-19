@@ -8,8 +8,8 @@ themesdir = "themes"
 
 [params]
 showVisitedLinks = true # default is false
-themeStyle = "" # "original" or "flex" # default "original"
-themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
+themeStyle = "original" # "original" or "flex" # default "original"
+themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = false # default is false
 disableSearch = false # default is false
