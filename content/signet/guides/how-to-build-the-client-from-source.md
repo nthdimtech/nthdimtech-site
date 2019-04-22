@@ -25,7 +25,7 @@ If you are not on a Debian based system, build or install the equivalent librari
 To build simply run qmake and then make:
 
 ```bash
-qmake client/client.pro CONFIG+=release CONFIG+=browser_plugins
+qmake client/client.pro
 make
 ```
 
@@ -50,7 +50,7 @@ brew install qt5 libgcrypt libgpg-error zlib
 To build Signet run:
 
 ```bash
-/usr/local/opt/qt5/bin/qmake client/client.pro CONFIG+=release CONFIG+=browser_plugins
+/usr/local/opt/qt5/bin/qmake client/client.pro
 make
 ```
 
@@ -72,7 +72,7 @@ Now you can build:
 
 ```bash
 export PATH=/mingw64/qt5-static/bin:$PATH
-qmake client/client.pro CONFIG+=release CONFIG+=browser_plugins
+qmake client/client.pro CONFIG+=release
 mingw32-make
 ```
 
