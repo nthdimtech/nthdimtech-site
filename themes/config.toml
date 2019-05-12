@@ -15,7 +15,7 @@ disableKinds=["RSS"]
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
-  link = "#"
+  link = "twitter.com/NthDimensionLLC"
 
 [[params.social]]
   medium = "facebook"
