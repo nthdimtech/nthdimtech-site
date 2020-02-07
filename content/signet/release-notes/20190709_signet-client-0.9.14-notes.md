@@ -1,6 +1,6 @@
 ﻿---
 title: Signet Client version 0.9.14
-date: "2019-07-9"
+date: "2019-07-09"
 ---
 
 Signet desktop client version 0.9.14 release notes
