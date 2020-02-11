@@ -9,7 +9,7 @@ The Signet client is a standalone cross-platform application that supports Windo
 
 Description      | Version | File | GPG signature
 -----------------|---------|------|---------------
-Windows client (64 bit)  | 0.9.15 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/windows/signet-0.9.15.exe) | [Signature](/signet/release-signatures/0.9.15/windows/signet-0.9.15-64bit.exe.sig)
+Windows client (64 bit)  | 0.9.15 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/windows/signet-0.9.15.exe) | [Signature](/signet/release-signatures/0.9.15/windows/signet-0.9.15.exe.sig)
 MacOS client             | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/macos/signet-0.9.15.dmg) | [Signature](/signet/release-signatures/0.9.15/macos/signet-0.9.15.dmg.sig)
 GNU/Linux client         | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/signet-0.9.15) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/signet-0.9.15.sig)
 GNU/Linux udev rule | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/50-signet.rules.sig)
