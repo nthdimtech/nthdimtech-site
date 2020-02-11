@@ -33,12 +33,12 @@ meant that we didn’t need to make any internal electrical connections to
 program the boards. With Signet HC, the DFU bootloader does not run over the
 high-speed USB port so we need to make temporary electrical connections to the
 board to program it. We decided we would program the device over the Serial
-Wire Debug (SWD) line and port using a custom test jig. Since there are no
-connectors installed on the board the best solution is for us is was to create
-a “bed of nails” test jig, whereby spring-loaded pogo pins are mounted to a
-platform and the board rests on the pins. A separate tool presses the board
-onto the pins to make a solid connection. We modeled our jig in FreeCad and
-printed it on our Form2 printer. You can see the CAD model below:
+Wire Debug (SWD) port using a custom test jig. Since there are no connectors
+installed on the board the best solution is for us is was to create a “bed of
+nails” test jig, whereby spring-loaded pogo pins are mounted to a platform and
+the board rests on the pins. A separate tool presses the board onto the pins to
+make a solid connection. We modeled our jig in FreeCad and printed it on our
+Form2 printer. You can see the CAD model below:
 
 ![Test jig CAD model](/signet-hc/images/signet-hc-test-jig-cad-model.png)
 
