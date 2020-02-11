@@ -23,7 +23,7 @@ To verify the GPG signatures you can download Nth Dimension's public [GPG key](h
 
 For additional validation you can find a copy of the key on the GitHub repository for this site [here](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/nthdimtech.asc). Copies of the signature files can also be found in the [GitHub repository](https://github.com/nthdimtech/nthdimtech-site/blob/master/content/signet/release-signatures) as well.
 
-### Browser plugins 
+### Browser plugins
 
 Browser plugins for Signet are available online for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm)
 
@@ -42,7 +42,7 @@ The Android client supports android version 4.4 (Lollypop) and above. At this ti
 1. Download the [apk](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk)
 
 1. Tap on the APK file to initiate installation of the application
-	
+
 	{{% notice note %}}
 If you have already installed the application before you may have to uninstall the current version
 	{{% /notice %}}
@@ -96,6 +96,13 @@ sudo cp ~/Downloads/50-signet.rules /etc/udev/rules.d
 1. Download the DMG file: [signet-0.9.15.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.15/macos/signet-0.9.15.dmg).
 1. Open the DMG file.
 1. Run Signet from the disk image or copy it to a permanent location of your choice (e.g. `/Applications` or `/Desktop`)
+
+{{% notice note %}}
+On MacOS Catalina (10.15) the OS may report a security exception when you try
+to open the application. After the error occurs you will be able to override
+it from your security and privacy settings. This occurs since our application
+is digitally signed but not yet notarized by Apple.
+{{% /notice %}}
 
 ## Past Binary Releases
 
