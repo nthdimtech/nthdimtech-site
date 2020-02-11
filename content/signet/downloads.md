@@ -14,7 +14,8 @@ MacOS client             | 0.9.15  |[Download](https://nthdimtech.com/downloads/
 GNU/Linux client         | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/signet-0.9.15) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/signet-0.9.15.sig)
 GNU/Linux udev rule | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/50-signet.rules.sig)
 Android client   | 0.1.5 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.5.apk.sig)
-Firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
+Signet firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
+Signet HC firmware binary | 0.1.2  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-hc-0.1.2.sfwhc) | [Signature](/signet/release-signatures/firmware/signet-hc-0.1.2.sfwhc.sig)
 Client source code |  0.9.15 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.15.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-client-0.9.15.tar.bz2.sig)
 
 To verify the GPG signatures you can download Nth Dimension's public [GPG key](https://nthdimtech.com/nthdimtech.asc). The key fingerprint is
