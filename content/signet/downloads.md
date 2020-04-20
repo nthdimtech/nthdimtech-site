@@ -5,18 +5,18 @@ weight: 30
 
 ## Signet Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. Read the latest client [release notes](/signet/release-notes/20200210_signet-client-0.9.15-notes) (version 0.9.15) for information on new features and improvements. [Browser plugins](#browser-plugins) for the Signet client are available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). The latest firmware version is [1.3.4](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw). You can download a binary image below or download the [source code](#source-code) to build your own binaries. Check the sections below for installation notes for your platform.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. Read the latest client [release notes](/signet/release-notes/20200420_signet-client-0.9.16-notes) (version 0.9.16.3) for information on new features and improvements. [Browser plugins](#browser-plugins) for the Signet client are available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). You can download a binary image below or download the [source code](#source-code) to build your own binaries. Check the sections below for installation notes for your platform.
 
 Description      | Version | File | GPG signature
 -----------------|---------|------|---------------
-Windows client (64 bit)  | 0.9.15 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/windows/signet-0.9.15.exe) | [Signature](/signet/release-signatures/0.9.15/windows/signet-0.9.15.exe.sig)
-MacOS client             | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/macos/signet-0.9.15.dmg) | [Signature](/signet/release-signatures/0.9.15/macos/signet-0.9.15.dmg.sig)
-GNU/Linux client         | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/signet-0.9.15) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/signet-0.9.15.sig)
-GNU/Linux udev rule | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.15/gnu-linux/50-signet.rules.sig)
+Windows client (64 bit)  | 0.9.16.3 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/windows/signet-0.9.16.3.exe) | [Signature](/signet/release-signatures/0.9.16/windows/signet-0.9.16.3.exe.sig)
+MacOS client             | 0.9.16.3  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/macos/signet-0.9.16.3.dmg) | [Signature](/signet/release-signatures/0.9.16/macos/signet-0.9.16.3.dmg.sig)
+GNU/Linux client         | 0.9.16.3  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/signet-0.9.16.3.bin) | [Signature](/signet/release-signatures/0.9.16/gnu-linux/signet-0.9.15.sig)
+GNU/Linux udev rule | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.16.3/gnu-linux/50-signet.rules.sig)
 Android client   | 0.1.5 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.5.apk.sig)
 Signet firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
-Signet HC firmware binary | 0.1.2  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-hc-0.1.2.sfwhc) | [Signature](/signet/release-signatures/firmware/signet-hc-0.1.2.sfwhc.sig)
-Client source code |  0.9.15 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.15.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-client-0.9.15.tar.bz2.sig)
+Signet HC firmware binary | 0.2.2  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-fw-0.2.2.sfwhc) | [Signature](/signet/release-signatures/firmware/signet-fw-0.2.2.sfwhc.sig)
+Client source code | 0.9.16.3 | [Download](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.16.3.tar.bz2) | [Signature](/signet/release-signatures/sources/signet-client-0.9.16.3.tar.bz2.sig)
 
 To verify the GPG signatures you can download Nth Dimension's public [GPG key](https://nthdimtech.com/nthdimtech.asc). The key fingerprint is
 
@@ -62,11 +62,11 @@ The Windows client has been tested on Windows 7, 8, and 10. There are no setup s
 ### GNU/Linux
 
 1. Download
-[signet-0.9.15](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/signet-0.9.15)
+[signet-0.9.16.3](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/signet-0.9.16.3.bin)
 then make it executable.
 
 	```bash
-chmod u+x ~/Downloads/signet-0.9.15
+chmod u+x ~/Downloads/signet-0.9.16.3.bin
 	```
 	{{% notice note %}}
 You may also want to move it to a more permanent location. Execute the commands below to copy
@@ -77,13 +77,13 @@ your Linux distribution.
 
 ```bash
 mkdir ~/bin
-mv ~/Downloads/signet-0.9.15 ~/bin
+mv ~/Downloads/signet-0.9.16.3.bin ~/bin
 ```
 	{{% /notice %}}
 
 1. Install the Signet udev rule to allow the application to connect to the device.
 
-	1. Download [50-signet.rules](https://nthdimtech.com/downloads/signet-releases/0.9.15/gnu-linux/50-signet.rules)
+	1. Download [50-signet.rules](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/50-signet.rules)
 	1. Copy it to `/etc/udev/rules.d/`.
 
 		```bash
@@ -94,7 +94,7 @@ sudo cp ~/Downloads/50-signet.rules /etc/udev/rules.d
 
 ### MacOS
 
-1. Download the DMG file: [signet-0.9.15.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.15/macos/signet-0.9.15.dmg).
+1. Download the DMG file: [signet-0.9.16.3.dmg](https://nthdimtech.com/downloads/signet-releases/0.9.16/macos/signet-0.9.16.3.dmg).
 1. Open the DMG file.
 1. Run Signet from the disk image or copy it to a permanent location of your choice (e.g. `/Applications` or `/Desktop`)
 
@@ -111,5 +111,5 @@ You can find all past client and firmware releases [here](https://nthdimtech.com
 
 ## Source Code
 
-The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license. You can find all Signet sources from the [Nth Dimension github page](https://www.github.com/nthdimtech). You can also download the [latest source archive](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.15.tar.bz2) if you want to build the latest release or browse [past source archives](https://nthdimtech.com/downloads/signet-releases/sources/) to build an earlier version. You can
+The Signet firmware and client are released under the [GPLv3](https://www.gnu.org/licenses/gpl.txt) license. You can find all Signet sources from the [Nth Dimension github page](https://www.github.com/nthdimtech). You can also download the [latest source archive](https://nthdimtech.com/downloads/signet-releases/sources/signet-client-0.9.16.3.tar.bz2) if you want to build the latest release or browse [past source archives](https://nthdimtech.com/downloads/signet-releases/sources/) to build an earlier version. You can
 follow [these instructions](/signet/how-to-build-the-client-from-source) to build the client application from source.
