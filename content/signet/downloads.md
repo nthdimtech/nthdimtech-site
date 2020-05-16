@@ -5,14 +5,14 @@ weight: 30
 
 ## Signet Downloads
 
-The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. Read the latest client [release notes](/signet/release-notes/20200420_signet-client-0.9.16-notes) (version 0.9.16.3) for information on new features and improvements. [Browser plugins](#browser-plugins) for the Signet client are available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). You can download a binary image below or download the [source code](#source-code) to build your own binaries. Check the sections below for installation notes for your platform.
+The Signet client is a standalone cross-platform application that supports Windows (7 and up), MacOS, and GNU/Linux. It supports both the original Signet and the newer Signet HC. Read the latest client [release notes](/signet/release-notes/20200420_signet-client-0.9.16-notes) (version 0.9.16.3) for information on new features and improvements. [Browser plugins](#browser-plugins) for the Signet client are available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/signet/) and [Chrome](https://chrome.google.com/webstore/detail/signet/gppbigcoahebbhkhdpdlilkncbedfpbm). You can download a binary image below or download the [source code](#source-code) to build your own binaries. Check the sections below for installation notes for your platform.
 
 Description      | Version | File | GPG signature
 -----------------|---------|------|---------------
 Windows client (64 bit)  | 0.9.16.3 |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/windows/signet-0.9.16.3.exe) | [Signature](/signet/release-signatures/0.9.16/windows/signet-0.9.16.3.exe.sig)
 MacOS client             | 0.9.16.3  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/macos/signet-0.9.16.3.dmg) | [Signature](/signet/release-signatures/0.9.16/macos/signet-0.9.16.3.dmg.sig)
 GNU/Linux client         | 0.9.16.3  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/signet-0.9.16.3.bin) | [Signature](/signet/release-signatures/0.9.16/gnu-linux/signet-0.9.15.sig)
-GNU/Linux udev rule | 0.9.15  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.16.3/gnu-linux/50-signet.rules.sig)
+GNU/Linux udev rule | 0.9.16  |[Download](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/50-signet.rules) | [Signature](/signet/release-signatures/0.9.16.3/gnu-linux/50-signet.rules.sig)
 Android client   | 0.1.5 | [Download](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk) | [Signature](/signet/release-signatures/android/0.1/signet-0.1.5.apk.sig)
 Signet firmware binary | 1.3.4  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-1.3.4.sfw) | [Signature](/signet/release-signatures/firmware/signet-1.3.4.sfw.sig)
 Signet HC firmware binary | 0.2.2  |[Download](https://nthdimtech.com/downloads/signet-releases/firmware/signet-fw-0.2.2.sfwhc) | [Signature](/signet/release-signatures/firmware/signet-fw-0.2.2.sfwhc.sig)
@@ -38,7 +38,7 @@ The sources for the plugins are inside the Signet client code. You can install t
 
 ### Android
 
-The Android client supports android version 4.4 (Lollypop) and above. At this time the Android client has a limited set of functionality but can be used to copy account data to the clipboard for use.
+The Android client supports android version 4.4 (Lollypop) and above. At this time the Android client has a limited set of functionality but can be used to copy account data to the clipboard for use. The Android client does not yet support Signet HC but support will be added in the next version.
 
 1. Download the [apk](https://nthdimtech.com/downloads/signet-releases/android/0.1/signet-0.1.5.apk)
 
@@ -62,7 +62,7 @@ The Windows client has been tested on Windows 7, 8, and 10. There are no setup s
 ### GNU/Linux
 
 1. Download
-[signet-0.9.16.3](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/signet-0.9.16.3.bin)
+[signet-0.9.16.3.bin](https://nthdimtech.com/downloads/signet-releases/0.9.16/gnu-linux/signet-0.9.16.3.bin)
 then make it executable.
 
 	```bash
