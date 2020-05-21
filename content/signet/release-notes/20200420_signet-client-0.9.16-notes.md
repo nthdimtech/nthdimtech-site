@@ -1,5 +1,5 @@
 ---
-title: Signet Client version 0.9.14
+title: Signet Client version 0.9.16
 date: "2020-04-20"
 ---
 
